@@ -5,6 +5,7 @@ import { Chart } from "react-google-charts";
 function App() {
   return (
     <div className="App">
+      <h2>My Daily Activities</h2>
       <Chart
       chartType="PieChart"
       data={[["Task", "Hours per Day"],
